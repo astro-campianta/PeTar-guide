@@ -1,1 +1,4 @@
 # PeTar-guide
+PeTar is a high-performance N-body code created by Long Wang (see Wang et al., 2020; https://arxiv.org/abs/2006.16560) for modeling massive collisional stellar systems, but actually extendable to collisionless ones. Here three Python3 programs to interact with PeTar are provided: two for the generation of initial conditions, and one for the output analysis.
+Initial conditions generation programs allow the user to design its own star cluster by simply choosing values for specific input parameters, and differ from each other only in the way binaries are coupled, while the output analysis program represents a handful tool for reading and processing simulations' data files. Codes are available in two versions, i.e., as jupyter notebooks or .py files.
+A more detailed description of code functions and variables, together with the indications for a test simulation, can be found in the Manual.
